@@ -37,6 +37,6 @@ In future projects, I want to focus more on:
 
 ## 👤 Author
 
-- Frontend Mentor - [@meshakcharuka]([https://www.frontendmentor.io/profile/meshakcharuka](https://www.frontendmentor.io/profile/Meshak-Charuka))
+- Frontend Mentor - [@meshakcharuka](https://www.frontendmentor.io/profile/Meshak-Charuka)
 - GitHub - [@meshakcharuka](https://github.com/Meshak-Charuka)
 
