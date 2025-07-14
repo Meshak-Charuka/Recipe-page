@@ -6,7 +6,7 @@ This is my solution to the [Recipe page challenge on Frontend Mentor](https://ww
 
 ## 📸 Screenshot
 
-![Screenshot](./images/screenshot.png)
+![Screenshot](https://github.com/Meshak-Charuka/Recipe-page/blob/main/Screenshot%20(39).png)
 
 ## 🔗 Links
 
