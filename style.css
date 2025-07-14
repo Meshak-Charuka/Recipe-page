@@ -1,0 +1,314 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+}
+
+.contener {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.contener .hero {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.section-one {
+    width: 80%;
+}
+
+.section-one h1,
+h2 {
+    font-family: 'Young Serif', serif;
+    color: hsl(24, 5%, 18%);
+    margin: 10px;
+}
+
+.section-one p {
+    margin: 10px;
+    color: hsl(30, 10%, 34%);
+}
+
+.section-two {
+    width: 80%;
+    background-color: hsla(332, 51%, 32%, 0.116);
+    border-radius: .3em;
+    margin-top: 30px;
+}
+
+.section-two h4,
+.section-two ol,
+.section-two li {
+    margin: 10px;
+    font-size: 20px;
+}
+
+.section-two ul li {
+    margin: 20px;
+    margin-left: 40px;
+    text-decoration: dotted;
+
+}
+
+.section-two ul li span {
+    color: black;
+
+}
+
+.section-two ul li {
+    color: hsl(30, 10%, 34%);
+}
+
+.section-three,
+.section-four {
+    width: 80%;
+    margin-top: 30px;
+}
+
+.section-three h2,
+.section-four h2 {
+    color: hsl(14, 45%, 36%);
+}
+
+.section-three ol,
+.section-four ol {
+    margin: 20px;
+    margin-left: 40px;
+    text-decoration: hsl(14, 45%, 36%);
+
+}
+
+.section-three li,
+.section-four li {
+    margin: 20px;
+    color: hsl(30, 10%, 34%);
+    ;
+}
+
+.section-three li::marker,
+.section-four li::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+.line {
+    height: solid red;
+    width: 100%;
+    width: 80%;
+    margin: 5px 0 15px;
+    background-color: hsla(32, 10%, 34%, 0.295);
+}
+
+.section-four {
+    width: 80%;
+    margin-top: 30px;
+}
+
+.section-four span {
+    color: hsl(24, 5%, 18%);
+    font-weight: 700;
+}
+
+.section-five {
+    width: 80%;
+    margin-top: 30px;
+
+}
+
+.section-five h2 {
+    color: hsl(14, 45%, 36%);
+}
+
+.section-five p {
+    margin-left: 10px;
+    color: hsl(30, 10%, 34%);
+    text-align: justify;
+}
+
+.nutrition-container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.serving-info {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+.nutrition-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.nutrition-table tr {
+    border-bottom: solid #e0e0e0;
+    width: 100%;
+}
+
+.nutrition-table tr:last-child {
+    border-bottom: none;
+}
+
+.nutrition-table td {
+    padding: 12px 0;
+    font-size: 16px;
+}
+
+.nutrition-table .label {
+    color: #333;
+    font-weight: normal;
+}
+
+.nutrition-table .value {
+    text-align: right;
+    color: #333;
+    font-weight: 500;
+}
+
+.calories .value {
+    font-weight: 600;
+}
+
+.attribution {
+    margin-top: 15px;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 600px) {
+    .section-one p {
+        font-size: 1.5rem;
+        margin: 10px;
+        color: hsl(30, 10%, 34%);
+    }
+
+    .section-two ul h4 {
+        font-size: 30px;
+        font-weight: 200;
+    }
+
+    .section-two li {
+        font-size: 25px;
+    }
+
+    .section-three ol li {
+        font-size: 23px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+
+    .section-four ol li {
+        font-size: 23px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .section-five h2 {
+        font-size: 30px;
+
+    }
+
+    .section-five p {
+        font-size: 1.3rem;
+    }
+
+    .nutrition-table td {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+        background-color: hsl(30, 54%, 90%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contener {
+        width: 40%;
+        background-color: hsl(330, 100%, 98%);
+        border-radius: .3em;
+        margin-top: 10px;
+    }
+
+    .contener .hero {
+        text-align: center;
+    }
+
+    .contener .hero img {
+        width: 80%;
+        margin-top: 40px;
+        border-radius: .3em;
+    }
+
+    .section-one h1 {
+        font-size: 20px;
+    }
+
+    .section-one p {
+        font-size: 17px;
+    }
+
+    .section-two ul h4 {
+        font-size: 20px;
+    }
+
+    .section-two ul li {
+        font-size: 17px;
+    }
+
+    .section-three h2 {
+        font-size: 20px;
+    }
+
+    .section-three ol li,
+    .section-four ol li {
+        font-size: 17px;
+    }
+
+    .section-four h2 {
+        font-size: 20px;
+    }
+
+    .section-five h2 {
+        color: hsl(14, 45%, 36%);
+        font-size: 20px;
+    }
+
+    .section-five p {
+        margin-left: 10px;
+        color: hsl(30, 10%, 34%);
+        text-align: justify;
+        font-size: 17px;
+    }
+
+    .nutrition-table td {
+        padding: 12px 0;
+        font-size: 16px;
+    }
+
+
+}
