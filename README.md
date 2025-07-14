@@ -10,15 +10,14 @@ This is my solution to the [Recipe page challenge on Frontend Mentor](https://ww
 
 ## 🔗 Links
 
-- Solution URL: https://github.com/meshakcharuka/recipe-page
-- Live Site URL: https://recipe-page-demo.netlify.app
+- Solution URL: [Solution URL](https://github.com/Meshak-Charuka/Recipe-page)
+- Live Site URL:[ Live Site URL](https://recipe-page-six-liard.vercel.app/)
 
 ## 🛠️ Built with
 
 - Semantic HTML5
 - CSS3
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 - Media Queries
 
@@ -36,13 +35,8 @@ In future projects, I want to focus more on:
 - Building more components with reusable CSS classes.
 - Getting more comfortable with using Figma and design specs.
 
-## 🌐 Useful resources
-
-- [MDN Web Docs](https://developer.mozilla.org/) – Great reference for HTML and CSS.
-- [Kevin Powell’s YouTube](https://www.youtube.com/@KevinPowell) – Helped me understand layout techniques better.
-
 ## 👤 Author
 
-- Frontend Mentor - [@meshakcharuka](https://www.frontendmentor.io/profile/meshakcharuka)
-- GitHub - [@meshakcharuka](https://github.com/meshakcharuka)
+- Frontend Mentor - [@meshakcharuka]([https://www.frontendmentor.io/profile/meshakcharuka](https://www.frontendmentor.io/profile/Meshak-Charuka))
+- GitHub - [@meshakcharuka](https://github.com/Meshak-Charuka)
 
